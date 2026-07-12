@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Encironmental Sciences, University of Girona, 2030 (expected)
+* Ph.D in Environmental Sciences, University of Girona, 2030 (expected)
 * M.S. in Fisheries management and Aquaculture, University of Murcia, 2024
 * B.S. in Environmental Sciences, University of Murcia, 2023
 

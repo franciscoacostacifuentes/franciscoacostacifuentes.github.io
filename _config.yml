@@ -87,7 +87,7 @@ publication_category:
   poster:
     title: 'Conference poster'
 
-congress_category:
+conference_category:
   poster:
     title: 'Poster'
   presentations:
@@ -237,7 +237,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  congress:
+  conference:
     output: true
     permalink: /:collection/:path/
 
@@ -265,7 +265,7 @@ defaults:
   # _teaching
   - scope:
       path: ""
-      type: congress
+      type: conference
     values:
       layout: single
       author_profile: true

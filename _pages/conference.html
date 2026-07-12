@@ -1,18 +1,18 @@
 ---
 layout: archive
-title: "Congress"
-permalink: /congress/
+title: "Conference"
+permalink: /conference/
 author_profile: true
 ---
 
 
 {% include base_path %}
 
-<!-- New style rendering if congress categories are defined -->
-{% if site.congress_category %}
-  {% for category in site.congress_category  %}
+<!-- New style rendering if conference categories are defined -->
+{% if site.conference_category %}
+  {% for category in site.conference_category  %}
     {% assign title_shown = false %}
-    {% for post in site.congress reversed %}
+    {% for post in site.conference reversed %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
@@ -24,7 +24,7 @@ author_profile: true
     {% endfor %}
   {% endfor %}
 {% else %}
-  {% for post in site.congress reversed %}
+  {% for post in site.conference reversed %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
