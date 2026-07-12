@@ -3,8 +3,7 @@ title: "Baseline assessment of biochemical biomarkers in different tissues of bl
 collection: publications
 category: preprints
 permalink: /publication/1
-excerpt: 'This paper number 1'
-date: ''
+date: 
 venue: 'Monitoring of Mediterranean Coastal Areas: Problems and Measurement Techniques'
 slidesurl: 'Not avaible yet'
 paperurl: ''

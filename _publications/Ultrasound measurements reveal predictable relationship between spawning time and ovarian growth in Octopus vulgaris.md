@@ -3,7 +3,6 @@ title: "Ultrasound measurements reveal predictable relationship between spawning
 collection: publications
 category: journal
 permalink: /publication/1
-excerpt: 'This paper number 1'
 date: 2025-07-24
 venue: 'Aquaculture reports'
 slidesurl: 'https://www.sciencedirect.com/science/article/pii/S2352513425004119'
