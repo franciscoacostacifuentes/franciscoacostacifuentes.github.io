@@ -54,12 +54,6 @@ Awards
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
   
-  
-<!-- Congress
-======
-  <ul>{% for post in site.congress reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
 
 <!-- Talks
 ======
