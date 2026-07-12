@@ -1,0 +1,49 @@
+/* ==========================================================================
+   DEFAULT THEME
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$gray                       : #030c13;
+$dark-gray                  : #01070c;
+$darker-gray                : #052036;
+$light-gray                 :#161c20;
+$lighter-gray               : #1a2329;
+
+/* Color codes used for the site */
+$danger-color               : #ee5f5b;
+$info-color                 : #2f7f93;
+$notice-color               : #7a8288;
+$success-color              : #62c462;
+$warning-color              : #f89406;
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Default light theme for the site */
+:root {
+    --global-base-color                 : #{$gray};
+    --global-bg-color                   : #499fd5;
+    --global-footer-bg-color            : #e2d1ce;
+    --global-border-color               : #{$lighter-gray};
+    --global-dark-border-color          : #92d5ff;
+    --global-code-background-color      : #e2d1ce;
+    --global-code-text-color            : #{$darker-gray};
+    --global-fig-caption-color          : #cb614e;
+    --global-link-color                 : #293299;
+    --global-link-color-hover           : #c0250a;
+    --global-link-color-visited         : #b06a5d;
+    --global-masthead-link-color        : #{$dark-gray};
+    --global-masthead-link-color-hover  : #($gray);
+    --global-text-color                 : #{$gray};
+    --global-text-color-light           : #{$light-gray};
+    --global-thead-color                : #{$lighter-gray};
+    --global-gradient-inicial           : #b2d3e8;
+    --global-gradient-final             : #62abd9;
+}

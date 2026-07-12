@@ -1,0 +1,57 @@
+/* ==========================================================================
+   DARK THEME
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$gray                       : #131318;
+$dark-gray                  : #131318;
+$darker-gray                : #131318;
+$light-gray                 : #131318;
+
+$background                 : #131318;
+$background-light           : #293D66;
+$background-lighter         : #262424;
+$text                       : #f5efef;
+$link                       : #3a8eca;
+$link-dark                  : #3a8eca;
+$link-light                 : #a5a6ac;
+
+/* Color codes used for the site */
+$danger-color               : #ee5f5b;
+$info-color                 : #bc0d93;
+$notice-color               : #7a8288;
+$success-color              : #62c462;
+$warning-color              : #f89406;
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Dark theme for the site */
+html[data-theme="dark"] {
+    --global-base-color                 : #{$background};
+    --global-bg-color                   : #050f26;
+    --global-footer-bg-color            : #{$background};
+    --global-border-color               : #{$light-gray};
+    --global-dark-border-color          : #{$background-light};
+    --global-code-background-color      : #1e1e37;
+    --global-code-text-color            : #{$darker-gray};
+    --global-fig-caption-color          : #{$light-gray};
+    --global-link-color                 : #{$link};
+    --global-link-color-hover           : #{$link-dark};
+    --global-link-color-visited         : #{$link-light};
+    --global-masthead-link-color        : #{$text};
+    --global-masthead-link-color-hover  : #{$background-light};
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #{$text};
+    --global-thead-color                : #{$background-lighter};
+    --global-gradient-inicial           : #131318;
+    --global-gradient-final             : #293D66;
+}
+
