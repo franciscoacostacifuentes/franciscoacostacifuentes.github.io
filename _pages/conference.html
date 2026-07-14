@@ -5,25 +5,8 @@ permalink: /conference/
 author_profile: true
 ---
 
-{% include base_path %}
+<p>Número de congresos: {{ site.conference | size }}</p>
 
-<!-- New style rendering if conference categories are defined -->
-{% if site.conference_category %}
-  {% for category in site.conference_category %}
-    {% assign title_shown = false %}
-    {% for post in site.conference reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.conference reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+{% for post in site.conference %}
+  <p>{{ post.title }}</p>
+{% endfor %}
