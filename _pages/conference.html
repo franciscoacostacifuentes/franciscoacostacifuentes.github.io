@@ -5,40 +5,32 @@ permalink: /conference/
 author_profile: true
 ---
 
-{% assign conferences = site.conference | group_by: "conference" %}
+{% assign conferences = site.conference | sort: "date" | reverse | group_by: "conference" %}
 
 {% for conf in conferences %}
 
 {% assign first = conf.items.first %}
 
-# {{ first.venue }}
+<h2>{{ first.venue }}</h2>
 
-**{{ first.location }}**
+<p>
 
-**{{ first.date | date: "%d %B %Y" }}
+📍 {{ first.location }}
 
----
+<br>
+
+📅 {{ first.date | date: "%d %B %Y" }}
+
+</p>
+
+<hr>
 
 {% for post in conf.items %}
 
-### {{ post.type }}
-
-**{{ post.title }}
-
-{% if post.paperurl %}
-[📄 PDF]({{ post.paperurl }})
-{% endif %}
-
-{% if post.slidesurl %}
-| [ResearchGate]({{ post.slidesurl }})
-{% endif %}
-
-{{ post.citation }}
+{% include archive-single-conference.html %}
 
 <br>
 
 {% endfor %}
-
-<hr>
 
 {% endfor %}

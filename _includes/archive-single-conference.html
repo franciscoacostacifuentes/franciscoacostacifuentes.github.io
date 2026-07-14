@@ -1,0 +1,44 @@
+<h3>{{ post.title }}</h3>
+
+<p>
+
+<strong>{{ post.type }}</strong>
+
+</p>
+
+{% if post.authors %}
+<p>
+
+<strong>Authors:</strong>
+
+{{ post.authors | markdownify }}
+
+</p>
+{% endif %}
+
+{% if post.paperurl %}
+<a href="{{ post.paperurl }}">📄 Poster/Paper</a>
+{% endif %}
+
+{% if post.slidesurl %}
+|
+<a href="{{ post.slidesurl }}">🔗 ResearchGate</a>
+{% endif %}
+
+{% if post.presentationurl %}
+|
+<a href="{{ post.presentationurl }}">📽 Presentation</a>
+{% endif %}
+
+{% if post.doi %}
+|
+<a href="{{ post.doi }}">DOI</a>
+{% endif %}
+
+{% if post.abstract %}
+<p>
+
+{{ post.abstract }}
+
+</p>
+{% endif %}
