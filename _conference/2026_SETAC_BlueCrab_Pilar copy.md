@@ -1,7 +1,6 @@
 ---
 title: "Optimization of a method to assess the exposure to emerging pesticides in the Atlantic blue crab inhabiting a threatened sea lagoon"
 collection: conference
-conference: "SETAC2026"
 type: "Poster"
 date: 2026-05-17
 venue: 'SETAC Europe 36th Annual Meeting'

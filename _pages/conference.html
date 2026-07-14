@@ -5,29 +5,39 @@ permalink: /conference/
 author_profile: true
 ---
 
-{% include base_path %}
+{% assign conferences = site.conference | group_by: "conference" %}
 
-{% for post in site.conference reversed %}
+{% for conf in conferences %}
 
-<h2>{{ post.title }}</h2>
+{% assign first = conf.items.first %}
 
-<p><strong>Type:</strong> {{ post.type }}</p>
+# {{ first.venue }}
 
-<p><strong>Conference:</strong> {{ post.venue }}</p>
+**{{ first.location }}**
 
-<p><strong>Location:</strong> {{ post.location }}</p>
+**{{ first.date | date: "%d %B %Y" }}
 
-<p><strong>Date:</strong> {{ post.date | date: "%d %B %Y" }}</p>
+---
+
+{% for post in conf.items %}
+
+### {{ post.type }}
+
+**{{ post.title }}
 
 {% if post.paperurl %}
-<p><a href="{{ post.paperurl }}">📄 Download</a></p>
+[📄 PDF]({{ post.paperurl }})
 {% endif %}
 
 {% if post.slidesurl %}
-<p><a href="{{ post.slidesurl }}">🔗 Link to the communication</a></p>
+| [ResearchGate]({{ post.slidesurl }})
 {% endif %}
 
-<p>{{ post.citation }}</p>
+{{ post.citation }}
+
+<br>
+
+{% endfor %}
 
 <hr>
 
