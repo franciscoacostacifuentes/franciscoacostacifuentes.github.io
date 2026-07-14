@@ -20,11 +20,11 @@ author_profile: true
 <p><strong>Date:</strong> {{ post.date | date: "%d %B %Y" }}</p>
 
 {% if post.paperurl %}
-<p><a href="{{ post.paperurl }}">📄 Poster/Paper</a></p>
+<p><a href="{{ post.paperurl }}">📄 Download</a></p>
 {% endif %}
 
 {% if post.slidesurl %}
-<p><a href="{{ post.slidesurl }}">🔗 ResearchGate</a></p>
+<p><a href="{{ post.slidesurl }}">🔗 Link to the communication</a></p>
 {% endif %}
 
 <p>{{ post.citation }}</p>
