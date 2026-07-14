@@ -262,7 +262,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _conference
   - scope:
       path: ""
       type: conference
