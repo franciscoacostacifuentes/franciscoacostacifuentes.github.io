@@ -5,8 +5,30 @@ permalink: /conference/
 author_profile: true
 ---
 
-<p>Número de congresos: {{ site.conference | size }}</p>
+{% include base_path %}
 
-{% for post in site.conference %}
-  <p>{{ post.title }}</p>
+{% for post in site.conference reversed %}
+
+<h2>{{ post.title }}</h2>
+
+<p><strong>Type:</strong> {{ post.type }}</p>
+
+<p><strong>Conference:</strong> {{ post.venue }}</p>
+
+<p><strong>Location:</strong> {{ post.location }}</p>
+
+<p><strong>Date:</strong> {{ post.date | date: "%d %B %Y" }}</p>
+
+{% if post.paperurl %}
+<p><a href="{{ post.paperurl }}">📄 Poster/Paper</a></p>
+{% endif %}
+
+{% if post.slidesurl %}
+<p><a href="{{ post.slidesurl }}">🔗 ResearchGate</a></p>
+{% endif %}
+
+<p>{{ post.citation }}</p>
+
+<hr>
+
 {% endfor %}
