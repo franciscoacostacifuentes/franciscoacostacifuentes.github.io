@@ -1,8 +1,8 @@
 ---
-title: "Baseline assessment of biochemical biomarkers in different tissues of blue crab (*Callinectes sapidus*)"
-collection: conference
+title: "The Atlantic Blue Crab as a Cross Ecosystem Outlier: A Framework for Wildlife Toxicology and One Health"
 conference: "SETAC2026"
-type: "Poster"
+collection: conference
+type: "poster"
 date: 2026-05-17
 venue: 'SETAC Europe 36th Annual Meeting'
 location: "Maastricht, the Netherlands"
