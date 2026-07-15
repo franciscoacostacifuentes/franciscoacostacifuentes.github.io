@@ -24,15 +24,28 @@
 
 </p>
 {% endif %}
+<p style="font-size: 0.85em; margin-top: 0.4em; margin-bottom: 0.4em;">
 
 {% if post.paperurl %}
 <a href="{{ post.paperurl }}">📄 Communication</a>
 {% endif %}
 
 {% if post.slidesurl %}
-|
+&nbsp;|&nbsp;
 <a href="{{ post.slidesurl }}">🔗 Link</a>
 {% endif %}
+
+{% if post.presentationurl %}
+&nbsp;|&nbsp;
+<a href="{{ post.presentationurl }}">📽 Presentation</a>
+{% endif %}
+
+{% if post.doi %}
+&nbsp;|&nbsp;
+<a href="{{ post.doi }}">DOI</a>
+{% endif %}
+
+</p>
 
 {% if post.citation %}
 <p style="font-size: 0.8em; color: #666; margin-top: 0.4em;">
