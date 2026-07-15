@@ -5,9 +5,9 @@ permalink: /conference/
 author_profile: true
 ---
 
-{% assign conferences = site.conference | sort: "date" | reverse | group_by: "conference" %}
+{% assign conference = site.conference | sort: "date" | reverse | group_by: "conference" %}
 
-{% for conf in conferences %}
+{% for conf in conference %}
 
 {% assign first = conf.items.first %}
 
