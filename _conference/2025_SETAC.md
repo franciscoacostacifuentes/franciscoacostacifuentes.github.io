@@ -2,7 +2,7 @@
 title: "Effects of Neonicotinoids Exposure on the Blue Crab (<i>Callinectes sapidus</i>): Bioaccumulation, Neurotoxicity, and Behavioral Implications"
 conference: "SETAC2025"
 collection: conference
-type: "poster"
+type: "Poster"
 date: 2025-05-28
 venue: 'SETAC Europe 35th Annual Meeting'
 location: "Vienna, Austria"
