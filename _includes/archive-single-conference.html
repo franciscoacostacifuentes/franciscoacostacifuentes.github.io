@@ -1,12 +1,9 @@
 {% if post.link %}
-<h3 style="font-size: 1.35em; margin-bottom: 0.3em;">
-  {% if post.link %}
-    <a href="{{ post.link }}" target="_blank" rel="noopener noreferrer">
-      {{ post.title }}
-    </a>
-  {% else %}
+<h3>
+  <a href="{{ post.link }}" target="_blank" rel="noopener noreferrer">
     {{ post.title }}
-  {% endif %}
+  </a>
+</h3>
 </h3>
 </h3>
 {% else %}
@@ -29,7 +26,7 @@
 {% endif %}
 
 {% if post.paperurl %}
-<a href="{{ post.paperurl }}">📄 Commnication</a>
+<a href="{{ post.paperurl }}">📄 Communication</a>
 {% endif %}
 
 {% if post.slidesurl %}
