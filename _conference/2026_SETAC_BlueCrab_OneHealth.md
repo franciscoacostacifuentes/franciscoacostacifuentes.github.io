@@ -1,7 +1,7 @@
 ---
 title: "The Atlantic Blue Crab as a Cross Ecosystem Outlier: A Framework for Wildlife Toxicology and One Health"
 conference: "SETAC2026"
-collection: conference
+collection: conferences
 type: "poster"
 date: 2026-05-17
 venue: 'SETAC Europe 36th Annual Meeting'

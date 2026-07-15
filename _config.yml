@@ -237,7 +237,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  conference:
+  conferences:
     output: true
     permalink: /:collection/:path/
 
@@ -265,7 +265,7 @@ defaults:
   # _conference
   - scope:
       path: ""
-      type: conference
+      type: conferences
     values:
       layout: single
       author_profile: true
