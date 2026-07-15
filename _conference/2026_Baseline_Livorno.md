@@ -1,7 +1,7 @@
 ---
 title: "Baseline assessment of biochemical biomarkers in different tissues of blue crab (<i>Callinectes sapidus</i>)"
 conference: "Mediterranean_coastal_areas"
-collection: conferences
+collection: conference
 type: "poster"
 date: 2026-06-16
 venue: 'XI International Symposium Monitoring of Mediterranean coastal áreas: Problems and measurements techniques'
