@@ -25,7 +25,7 @@ Research experience
 * January 2024 - May 2024: Student intern
   * Oceanographic Centre of Murcia (Fuengirola) - [Spanish Institute of Oceanography](https://sscc.ieo.csic.es/)
   * Duties included: Conducted biological sampling of commercial marine species, including fish, cephalopods, crustaceans, bivalves, and discarded species. Processed Octopus vulgaris samples for reproductive and histological studies through tissue fixation, paraffin embedding, microtome sectioning, and histological staining. Analysed reproductive and biological data using statistical and image analysis tools, including ZooScan and EcoTaxa, and contributed to laboratory and fieldwork, fisheries research, and scientific outreach activities.
-  * Supervisors: Sámar Saber Rodríguez
+  * Supervisor: Sámar Saber Rodríguez
 
 * January 2023 - April 2023: Student intern
   * Oceanographic Centre of Murcia (San Pedro del Pinatar) - [Spanish Institute of Oceanography](https://sscc.ieo.csic.es/)
